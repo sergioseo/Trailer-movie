@@ -1,7 +1,7 @@
 import fresh_tomatoes
 import media
 
-# Criar instancias com atributos para determinar as caracteristicas do filme
+# Create Instances with Attributes to Determine Movie Characteristics
 batman_forever = media.Movie(
     "Batman Forever",
     "2h 2m",
@@ -86,11 +86,11 @@ forrest_gump = media.Movie(
     )
 
 
-# Objetos que trarão dados e conteúdo para o website
+# Objects that will bring content to the website
 movies = [
     batman_forever, avatar, hobbit_final,
     thor_ragnarok, truman_show, forrest_gump
     ]
 
-# Abrir uma HTML para visualizar a capa dos filmes e seus trailers
+# Open an HTML to view the cover of the movies and their trailers
 fresh_tomatoes.open_movies_page(movies)
