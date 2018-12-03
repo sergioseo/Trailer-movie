@@ -3,7 +3,7 @@ import webbrowser
 
 class Head():
     def __init__(self, title, duration, info, poster_image_url):
-        """Aqui podemos definir o title, duration, info e poster_image"""
+        """Here we can define the title, duration, info and poster_image"""
         self.title = title
         self.duration = duration
         self.info = info
@@ -13,12 +13,12 @@ class Head():
 class Movie(Head):
     def __init__(self, title, duration, info, poster_image_url,
                  storyline, release, trailer_youtube_url):
-        """Aqui iremos determinar os atributos para os filmes"""
+        """Here we will determine the attributes for the movies"""
         Head.__init__(self, title, duration, info, poster_image_url)
         self.storyline = storyline
         self.release = release
         self.trailer_youtube_url = trailer_youtube_url
 
     def show_trailer(self):
-        """Serão abertos os trailers no youtube que são selecionados"""
+        """Open the youtube trailers that are selected"""
         webbrowser.open(self.trailer_youtube_url)
