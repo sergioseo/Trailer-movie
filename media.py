@@ -1,6 +1,5 @@
 import webbrowser
 
-# hola
 
 class Head():
     def __init__(self, title, duration, info, poster_image_url):
