@@ -22,3 +22,11 @@ class Movie(Head):
     def show_trailer(self):
         """Open the youtube trailers that are selected"""
         webbrowser.open(self.trailer_youtube_url)
+
+ """
+ 
+ ola
+ hola
+ hola
+ 
+ """
